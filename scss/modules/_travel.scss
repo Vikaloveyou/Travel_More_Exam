@@ -1,0 +1,165 @@
+.travel {
+    background: url('../images/travel.jpg') no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    padding-top: 120px;
+}
+
+.tarvel__title {
+    font-size: 36px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-bottom: 94px;
+    font-family: 'Aleo Regular';
+}
+
+.travel__image {
+    background: url('../images/tourist.jpg') no-repeat;
+    width: 445px;
+    height: 284px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: -5px;
+}
+
+
+.travel__review {
+    background-color: #333333;
+    width: 620px;
+    height: 284px;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 40px 50px;
+
+    
+    &__title {
+        color: #fefefe;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 400;
+        text-transform: uppercase;
+        font-size: 20px;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+
+    &__text {
+        text-indent: 20px;
+        color: #e8e8e8;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 400;
+        font-weight: 16px;
+        line-height: 26px;
+        text-align: justify;
+        margin: 0;
+    }
+}
+
+
+.footer__quote {
+    background: url('../images/icons/quote.svg') no-repeat;
+    width: 16px;
+    height: 16px;
+}
+
+
+.travel__footer {
+    width: 100%;
+    height: 268px;
+    background-color: #232323;
+    margin-top: 200px;
+    display: flex;
+    align-items: flex-end;
+
+    &__block {
+        width: 300px;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+    
+    }
+}
+
+.travel__footer__title {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.08;
+    letter-spacing: 3.36px;
+    margin-bottom: 10px;
+}
+
+.travel__footer__text {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.63;
+    letter-spacing: 1.6px;
+    margin-bottom: 20px;
+}
+
+.travel__footer__socials {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 170px;
+    height: 20px;
+}
+
+.travel__facebook {
+    background: url('../images/icons/facebook.svg') no-repeat;
+    width: 16px;
+    height: 16px;
+    transition: .3s;
+
+    &:hover {
+        transform: scale(1.5);
+    }
+}
+
+.travel__twitter {
+    background: url('../images/icons/twitter.svg') no-repeat;
+    width: 16px;
+    height: 16px;
+    transition: .3s;
+
+    &:hover {
+        transform: scale(1.5);
+    }
+}
+
+.travel__linkedin {
+    background: url('../images/icons/linkedin.svg') no-repeat;
+    width: 16px;
+    height: 16px;
+    transition: .3s;
+
+    &:hover {
+        transform: scale(1.5);
+    }
+}
+
+.travel__youtube {
+    background: url('../images/icons/youtube.svg') no-repeat;
+    width: 16px;
+    height: 16px;
+    transition: .3s;
+
+    &:hover {
+        transform: scale(1.5);
+    }
+}
+
+.travel__pinterest {
+    background: url('../images/icons/pinterest.svg') no-repeat;
+    width: 16px;
+    height: 16px;
+    transition: .3s;
+
+    &:hover {
+        transform: scale(1.5);
+    }
+}

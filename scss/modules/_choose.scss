@@ -18,12 +18,19 @@
     width: 225px;
     height: 60px;
     text-transform: uppercase;
-    font-family: 'Josefin Sans', sans-serif;
     color: #ffffff;
-    background: #5474fd;
+    background-color: #5474fd;
     font-size: 16px;
-    letter-spacing: 1.2;
+    letter-spacing: 1.2px;
+    border: none;
+    font-weight: 400;
+    font-family: 'Aleo Regular';
+    transition: .3s;
     
+    &:hover {
+        background: #ff6363;
+    
+    } 
 }
 
 .choose-us__title {
@@ -31,6 +38,8 @@
     color: #ffffff;
     margin: 0;
     margin-bottom: 62px;
+    font-weight: 400;
+    font-family: 'Aleo Regular';
 }
 
 .choose-us__text {
@@ -41,15 +50,20 @@
     margin: 0;
     margin-bottom: 48px;
     text-align: justify;
+    font-weight: 400;
 }
 
-.images__block {
+.choose-us__images-block {
     margin-top: 120px;
 }
 
 .choose-image {
     width: 350px;
     height: 220px;
+
+    &:first-child {
+        margin-bottom: 5px;
+    }
 
     &:last-child {
         float: right;
@@ -66,6 +80,7 @@
     font-size: 36px;
     line-height: 26px;
     font-weight: 400;
+    transition: .3s;
 }
 
 .choose__footer__list {
@@ -74,7 +89,6 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-   
 }
 
 .choose__footer {
@@ -83,21 +97,47 @@
 }
 
 .choose__footer__item {
-    
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
-    
+}
+
+.choose__footer__item:first-child:hover .choose__footer__link {
+    color: #ff6363;
+}
+
+.choose__footer__item:first-child:hover .fill_pink {
+    fill: #ff6363;
+}
+
+
+.choose__footer__item:nth-child(2):hover .choose__footer__link {
+    color: #5474fd;
+}
+
+.choose__footer__item:nth-child(2):hover .fill_blue {
+    fill: #5474fd;
+}
+
+
+.choose__footer__item:last-child:hover .choose__footer__link {
+    color: #96b92c;
+}
+
+.choose__footer__item:last-child:hover .fill_green {
+    fill: #96b92c;
 }
 
 .choose__footer__item_title {
     margin: 0;
     margin-bottom: 10px;
+    font-family: 'Aleo Regular';
 }
 
 .choose__footer__svg {
     position: absolute;
     top: -80px;
     left: 90px;
+    transition: .3s;
 }

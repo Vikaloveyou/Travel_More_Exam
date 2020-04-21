@@ -1,0 +1,60 @@
+.spain-2 {
+    background: url('../images/spain-2.jpg') no-repeat;
+    background-size: cover;
+    color: #e8e8e8;
+    width: 100%;
+    height: 100%;
+    padding-top: 229px;
+    padding-bottom: 100px;
+}
+
+.spain__block_2 {
+    width: 540px;
+    height: 391px;
+    background: rgba(35, 35, 35, 0.9);
+    padding: 50px 30px;
+}
+
+.spain__text__title_2 {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.spain__title_2 {
+    font-size: 20px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 29px;
+}
+
+.spain__text_2 {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 48px;
+    letter-spacing: 1,5px;
+}
+
+.spain__block_2 input[type="submit"] {
+    width: 225px;
+    height: 60px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background: #5474fd;
+    font-size: 16px;
+    letter-spacing: 1.2px;
+    border: none;
+    font-weight: 400;
+    margin: 0;
+    font-family: 'Aleo Regular';
+    transition: .3s;
+
+    &:hover {
+        background: #ff6363;
+    }
+}
